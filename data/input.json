@@ -1,0 +1,8 @@
+{
+  "directUrls": ["https://www.instagram.com/monkcheen/"],
+  "resultsType": "posts",
+  "resultsLimit": 300,
+  "addParentData": false,
+  "searchType": "user",
+  "searchLimit": 1
+}

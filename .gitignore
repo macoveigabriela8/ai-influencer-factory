@@ -1,0 +1,51 @@
+# ---- secrets: never, ever -------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*credential*
+token*.json
+
+# ---- this machine's state and logs ---------------------------------------
+__pycache__/
+.DS_Store
+*.log
+output/health_history.json
+output/cron_*.log
+output/health_reports/
+data/story_push_state.json
+data/kie_tasks.json
+data/pt_drive_state.json
+data/youtube_pins.json
+
+# ---- rendered media (regenerated from the scripts; ~17 GB) ---------------
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.zip
+output/reels/.work/
+
+# ---- downloaded competitor media: not ours to redistribute ---------------
+data/videos/
+data/competitors/audio/
+
+# ---- other people's data: raw scrape dumps carry ~5,500 commenter handles/ids.
+# The pipeline reads the DERIVED files (data/competitors/CORPUS.md, REGISTRY.md),
+# which carry none. Raw dumps stay on disk, never in git.
+data/*_raw.json
+data/*_full.json
+data/*_posts.json
+data/competitors/*_posts.json
+data/competitors/search_raw.json
+data/competitors/profiles.json
+data/competitors/*.json
+output/assets/align_*.json
+
+# ---- the owner's PERSONAL account analytics - not part of the product ---
+scripts/daily_dashboard.py
+output/dashboard.html
+output/dashboard_data.json
+*.bak

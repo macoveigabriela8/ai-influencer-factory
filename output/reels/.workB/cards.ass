@@ -1,0 +1,46 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,OutlineColour,BackColour,Bold,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Card,Arial Bold,64,&H00000000,&H00FFFFFF,&H00FFFFFF,-1,3,14,0,5,60,60,0,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:01.80,Card,,0,0,0,,{\pos(540,1056)}If you dream about\Npeople who have
+Dialogue: 0,0:00:01.80,0:00:03.02,Card,,0,0,0,,{\pos(540,1056)}already passed away,
+Dialogue: 0,0:00:03.48,0:00:04.04,Card,,0,0,0,,{\pos(540,1056)}pay attention.
+Dialogue: 0,0:00:04.70,0:00:06.28,Card,,0,0,0,,{\pos(540,1056)}It matters how they\Nappear.
+Dialogue: 0,0:00:07.04,0:00:07.82,Card,,0,0,0,,{\pos(540,1056)}In my tradition,
+Dialogue: 0,0:00:08.18,0:00:09.86,Card,,0,0,0,,{\pos(540,1056)}we do not say the dead\Ncome
+Dialogue: 0,0:00:09.86,0:00:10.66,Card,,0,0,0,,{\pos(540,1056)}to visit us.
+Dialogue: 0,0:00:11.12,0:00:12.62,Card,,0,0,0,,{\pos(540,1056)}We say the part of you\Nthat
+Dialogue: 0,0:00:12.62,0:00:14.96,Card,,0,0,0,,{\pos(540,1056)}still loves them comes\Nto visit you.
+Dialogue: 0,0:00:15.42,0:00:16.50,Card,,0,0,0,,{\pos(540,1056)}So the question is,
+Dialogue: 0,0:00:16.74,0:00:18.38,Card,,0,0,0,,{\pos(540,1056)}never was it really\Nthem.
+Dialogue: 0,0:00:19.10,0:00:22.02,Card,,0,0,0,,{\pos(540,1056)}The question is how they\Nappeared.
+Dialogue: 0,0:00:23.34,0:00:25.24,Card,,0,0,0,,{\pos(540,1056)}Think back to last night\Nor to
+Dialogue: 0,0:00:25.24,0:00:26.08,Card,,0,0,0,,{\pos(540,1056)}the last time.
+Dialogue: 0,0:00:26.42,0:00:27.52,Card,,0,0,0,,{\pos(540,1056)}Do not force it.
+Dialogue: 0,0:00:27.52,0:00:29.88,Card,,0,0,0,,{\pos(540,1056)}The image comes on its\Nown.
+Dialogue: 0,0:00:30.48,0:00:32.40,Card,,0,0,0,,{\pos(540,1056)}If they were silent and\Nsimply present,
+Dialogue: 0,0:00:33.14,0:00:33.76,Card,,0,0,0,,{\pos(540,1056)}saying nothing,
+Dialogue: 0,0:00:34.26,0:00:35.12,Card,,0,0,0,,{\pos(540,1056)}nothing is wrong.
+Dialogue: 0,0:00:35.72,0:00:37.32,Card,,0,0,0,,{\pos(540,1056)}That is memory settling,
+Dialogue: 0,0:00:38.26,0:00:38.42,Card,,0,0,0,,{\pos(540,1056)}longing,
+Dialogue: 0,0:00:39.00,0:00:40.46,Card,,0,0,0,,{\pos(540,1056)}taking a shape you can\Nhold.
+Dialogue: 0,0:00:41.78,0:00:43.56,Card,,0,0,0,,{\pos(540,1056)}If they spoke to you and\Nyou
+Dialogue: 0,0:00:43.56,0:00:44.88,Card,,0,0,0,,{\pos(540,1056)}cannot remember the\Nwords,
+Dialogue: 0,0:00:45.40,0:00:47.24,Card,,0,0,0,,{\pos(540,1056)}you already know what\Nthey would have
+Dialogue: 0,0:00:47.24,0:00:47.58,Card,,0,0,0,,{\pos(540,1056)}said.
+Dialogue: 0,0:00:48.18,0:00:49.90,Card,,0,0,0,,{\pos(540,1056)}You are not ready to say\Ngoodbye
+Dialogue: 0,0:00:49.90,0:00:50.26,Card,,0,0,0,,{\pos(540,1056)}yet.
+Dialogue: 0,0:00:51.02,0:00:52.74,Card,,0,0,0,,{\pos(540,1056)}If they appeared young\Nagain,
+Dialogue: 0,0:00:53.30,0:00:53.68,Card,,0,0,0,,{\pos(540,1056)}healthy,
+Dialogue: 0,0:00:54.16,0:00:55.16,Card,,0,0,0,,{\pos(540,1056)}before the illness,
+Dialogue: 0,0:00:55.16,0:00:57.44,Card,,0,0,0,,{\pos(540,1056)}that is you letting go\Nof the
+Dialogue: 0,0:00:57.44,0:00:58.44,Card,,0,0,0,,{\pos(540,1056)}last image,
+Dialogue: 0,0:00:59.10,0:00:59.92,Card,,0,0,0,,{\pos(540,1056)}the hardest one.

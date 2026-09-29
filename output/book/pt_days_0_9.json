@@ -1,0 +1,193 @@
+{
+  "weeks": [
+    {
+      "n": "Semana Um",
+      "t": "A Manhã"
+    },
+    {
+      "n": "Semana Dois",
+      "t": "O Corpo"
+    },
+    {
+      "n": "Semana Três",
+      "t": "O Barulho"
+    },
+    {
+      "n": "Semana Quatro",
+      "t": "A Quietude"
+    }
+  ],
+  "days": [
+    {
+      "week": 0,
+      "title": "Antes que o Mundo Entre",
+      "epigraph": "Os primeiros minutos da manhã pertencem a quem os toma para si.",
+      "paras": [
+        "A maioria das pessoas perde o dia nos seus dois primeiros minutos. O alarme toca, a mão busca o telefone, e antes que os pés toquem o chão elas já convidaram mil estranhos para dentro do quarto. As notícias, as mensagens, o barulho. Depois se perguntam por que o dia parece pesado antes mesmo de começar.",
+        "Os primeiros minutos depois de acordar são os mais receptivos de todo o seu dia. A sua mente ainda não recebeu nada de ninguém. O que você coloca ali primeiro dá o tom de tudo o que vem depois. Hoje, você escolhe o que entra primeiro."
+      ],
+      "practice_label": "A prática de hoje, quatro minutos",
+      "practice_steps": [
+        "Hoje à noite, deixe o telefone fora do quarto. Um despertador barato faz bem o seu único trabalho.",
+        "Ao acordar, sente-se devagar e diga estas quatro coisas, em voz baixa ou na mente.",
+        "Gratidão: obrigado por esta nova manhã, pelo ar nos meus pulmões e pela luz que me acordou.",
+        "Força: hoje vou receber o que vier com energia firme.",
+        "Direção: que meus passos tenham intenção, que minhas palavras sejam calmas.",
+        "Soltar: eu solto o que não posso controlar. Pause. Respire. Agora comece."
+      ],
+      "journal": "O que entrou primeiro na sua mente esta manhã, e foi você quem escolheu?"
+    },
+    {
+      "week": 0,
+      "title": "O Copo de Água",
+      "epigraph": "A água responde a quem a toca.",
+      "paras": [
+        "Hoje à noite você vai fazer algo que o meu mestre me pediu na minha primeira noite no mosteiro. Eu achei que aquilo era pouco para mim. Eu estava errado sobre isso, e sobre quase tudo naquele ano.",
+        "Antes de dormir, encha um copo com água limpa e segure-o com as duas mãos. Diga baixinho: enquanto eu descanso, solte o que é pesado. Coloque-o ao lado da cama. De manhã, olhe para ele antes de olhar para qualquer outra coisa. Depois jogue a água fora.",
+        "A água leva as suas preocupações para fora do quarto? Eu não vou dizer no que você deve acreditar. Vou dizer o que você pode comprovar: o ritual encerra o seu dia com um ato feito de propósito, e não com o dedo na tela. Ele dá forma ao seu último pensamento acordado, e coloca algo entre você e o telefone pela manhã. Um ritual é uma alça para segurar a mente. A mão que busca um copo não está buscando uma tela."
+      ],
+      "practice_label": "A prática de hoje, três minutos",
+      "practice_steps": [
+        "Antes de deitar, encha um copo de água. Segure-o com as duas mãos por três respirações lentas.",
+        "Diga, em voz baixa: enquanto eu descanso, solte o que é pesado. Deixe-o ao lado da cama.",
+        "De manhã, observe-o em silêncio por um momento. Jogue a água fora. Lave o copo."
+      ],
+      "journal": "O que você notou no momento antes de jogar a água fora?"
+    },
+    {
+      "week": 0,
+      "title": "Fale Como Se o Corpo Escutasse",
+      "epigraph": "O seu corpo não entende piada. Ele entende repetição.",
+      "paras": [
+        "Hoje, nenhum ritual novo. Hoje você apenas vigia a sua boca.",
+        "Cada palavra que você diz sobre si mesmo é recebida como uma ordem. Diga “sou burro, sou fraco, eu sempre falho”, mesmo rindo enquanto diz, e o corpo não ri. Ele se prepara. Os ombros ficam duros, a respiração fica curta, a mente monta guarda. Muitas pessoas não foram amaldiçoadas pela vida. Foram amaldiçoadas pelo jeito como falam consigo mesmas.",
+        "Você não precisa gritar frases bonitas na frente do espelho. Apenas pare de se ferir com a própria boca. Fale consigo mesmo como falaria com um amigo cansado. Mude o jeito de falar, e devagar a sua vida começa a escutar."
+      ],
+      "practice_label": "A prática de hoje, o dia inteiro, zero minutos",
+      "practice_steps": [
+        "Cada vez que perceber uma palavra dura sobre si mesmo, em voz alta ou em silêncio, não brigue consigo por isso. Essa é a mesma faca.",
+        "Diga de novo, do jeito que um amigo gentil diria. “Eu sempre falho” vira “essa vez não deu certo”.",
+        "Conte nos dedos. O número desta noite é o seu ponto de partida, não a sua sentença."
+      ],
+      "journal": "Quantas vezes você pegou a voz antiga hoje?"
+    },
+    {
+      "week": 0,
+      "title": "A Primeira Respiração que Você Percebe",
+      "epigraph": "Você respirou vinte mil vezes hoje. Quantas dessas você encontrou?",
+      "paras": [
+        "A respiração é a única porta que está sempre aberta. Você não consegue acalmar os pensamentos mandando que se acalmem. Você consegue desacelerar a respiração, e os pensamentos descem com ela, como pássaros que pousam depois de um bater de palmas.",
+        "Não há nada de místico nesta parte. Um sopro longo para fora avisa ao corpo que o perigo passou. Toda tradição encontrou esta porta porque toda tradição tinha seres humanos, e os seres humanos sempre precisaram de um caminho de volta."
+      ],
+      "practice_label": "A prática de hoje, cinco minutos",
+      "practice_steps": [
+        "Sente-se em qualquer lugar. Costas retas mas sem rigidez, mãos descansando onde caírem.",
+        "Puxe o ar pelo nariz contando até quatro.",
+        "Solte o ar devagar contando até seis. O sopro para fora é o professor; mantenha-o mais longo do que a entrada.",
+        "Faça isso por cinco minutos. Quando a mente fugir, e ela vai fugir, volte para a contagem sem comentar nada."
+      ],
+      "journal": "Para onde a sua mente foi primeiro, e como você a trouxe de volta?"
+    },
+    {
+      "week": 0,
+      "title": "Sele o Seu Dia",
+      "epigraph": "O que você protege em silêncio trabalha com mais força.",
+      "paras": [
+        "Antes de falar com qualquer pessoa amanhã de manhã, sele o seu dia. Faça isso antes que o mundo entre em você.",
+        "Coloque a mão sobre o centro do peito. Sinta o calor da sua própria palma. Diga em silêncio: eu protejo o meu dia. Eu protejo o meu caminho. O que é meu me pertence. Fique ali um momento quieto antes de se levantar.",
+        "O gesto leva dez segundos. O seu trabalho é simples e real: você não consegue colocar a mão no peito e dizer essas palavras enquanto rola a tela, discute ou corre. Por dez segundos você está em um lugar só. A maioria das pessoas não visita esse lugar o dia inteiro."
+      ],
+      "practice_label": "A prática de hoje, dez segundos",
+      "practice_steps": [
+        "Ao acordar, antes de falar, coloque uma das mãos aberta sobre o centro do peito.",
+        "Diga em silêncio: eu protejo o meu dia. Eu protejo o meu caminho. O que é meu me pertence.",
+        "Uma respiração lenta com a mão parada. Depois levante."
+      ],
+      "journal": "O dia pareceu diferente do outro lado desses dez segundos selados?"
+    },
+    {
+      "week": 0,
+      "title": "Chá Como uma Cerimônia",
+      "epigraph": "A xícara é pequena para que você olhe para ela.",
+      "paras": [
+        "No mosteiro, o chá nunca foi uma bebida. Era um relógio que media a atenção. Um visitante que bebia em um gole só era escutado com educação e não aprendia nada. Não por crueldade, mas porque não havia nele lugar onde algo pudesse pousar.",
+        "Hoje, uma xícara, tomada devagar, sem telefone por perto. Observe o vapor. Sinta o calor passando para as suas mãos. Prove o primeiro gole como se depois fossem pedir que você o descrevesse. Essa é a prática inteira. Parece nada. Uma chave girando na fechadura também parece."
+      ],
+      "practice_label": "A prática de hoje, dez minutos",
+      "practice_steps": [
+        "Prepare uma bebida quente com atenção total: a água, o despejar, a cor mudando.",
+        "Sente-se com ela em algum lugar sem tela. Segure a xícara com as duas mãos.",
+        "Beba mais devagar do que parece natural. Quando terminar, fique sentado por mais uma respiração."
+      ],
+      "journal": "O que você notou na xícara que nunca tinha notado antes?"
+    },
+    {
+      "week": 0,
+      "title": "A Sétima Manhã",
+      "epigraph": "Descansar também é uma prática. Talvez a mais difícil.",
+      "paras": [
+        "Seis dias de prática ficaram para trás. Hoje você não acrescenta nada.",
+        "Repita apenas o que já se tornou seu: as quatro frases, ou os dez segundos selados, ou a xícara lenta. Escolha uma. Deixe as outras descansar. Um caminho não se constrói andando por ele inteiro todos os dias.",
+        "Perceba, hoje à noite, qual prática fez falta quando você a pulou. Essa saudade é informação. Ela mostra qual porta é a sua."
+      ],
+      "practice_label": "A prática de hoje, você escolhe",
+      "practice_steps": [
+        "Escolha a prática desta semana que pareceu mais sua.",
+        "Faça apenas essa, com um pouco mais de cuidado do que de costume.",
+        "Antes de dormir, leia devagar as suas seis linhas de diário desta semana."
+      ],
+      "journal": "Qual prática você defenderia se alguém tentasse tirá-la de você?"
+    },
+    {
+      "week": 1,
+      "title": "Pise no Sal",
+      "epigraph": "O sal nunca foi só para a comida.",
+      "paras": [
+        "Espalhe uma camada grossa de sal grosso no chão. Suba nela com os pés descalços, e apenas fique parado.",
+        "Sinta os grãos apertando as solas dos pés. As solas dos pés estão entre as superfícies mais sensíveis do corpo, e milhares de terminações nervosas acordam de uma vez. A sua atenção desce da cabeça acelerada e pousa, inteira, nos seus pés. Os ombros amolecem. A respiração desacelera.",
+        "No nosso mosteiro, o sal marcava uma fronteira: entre o dia que se acumulou e a noite que merece coisa melhor. Dez minutos quietos. Essa é a prática inteira. O sal traz você para dentro do corpo. Guardar a calma depois que você desce do sal, essa é a arte mais funda, e é para isso que serve o resto deste livro."
+      ],
+      "practice_label": "A prática de hoje, dez minutos",
+      "practice_steps": [
+        "À noite, cubra uma bandeja ou uma toalha com uma camada grossa de sal grosso.",
+        "Fique de pé sobre ela, descalço, parado, olhos suaves ou fechados. Deixe os pés contarem tudo.",
+        "Quando os dez minutos passarem, desça, limpe os pés e vá para a cama sem tela."
+      ],
+      "journal": "O que os seus pés disseram que a sua cabeça estava barulhenta demais para ouvir?"
+    },
+    {
+      "week": 1,
+      "title": "Lave o que Você Carregou",
+      "epigraph": "As mãos tocam tudo o que o dia contém. Deixe que elas o terminem limpas.",
+      "paras": [
+        "Hoje à noite, lave as mãos devagar, com intenção, como o último ato do dia. Não a lavada rápida do costume. Água tão morna quanto for gostoso, e enquanto a água corre sobre as suas mãos, diga baixinho: o que eu carreguei hoje, eu deixo no chão.",
+        "Você apertou mãos, segurou um telefone cheio de brigas, segurou um volante no trânsito, segurou o próprio rosto na preocupação. As mãos estiveram presentes em tudo. Terminar o dia lavando as mãos de propósito é um jeito de dizer ao corpo inteiro: acabou, você pode parar de carregar.",
+        "Não há aqui nenhuma promessa sobre energia em que você deva acreditar. A promessa é menor e mais difícil: você não vai conseguir fazer isso devagar, dizendo essas palavras, enquanto ainda repete na cabeça a discussão do meio-dia. O ritual não deixa espaço para a ruminação. Isso basta."
+      ],
+      "practice_label": "A prática de hoje, três minutos",
+      "practice_steps": [
+        "Como última coisa antes de deitar, abra a água morna. Lave devagar: as palmas, as costas das mãos, cada dedo.",
+        "Enquanto a água corre, diga baixinho: o que eu carreguei hoje, eu deixo no chão.",
+        "Seque as mãos com cuidado, como se pertencessem a alguém que você ama. Elas pertencem."
+      ],
+      "journal": "O que foi mais difícil de deixar no chão esta noite?"
+    },
+    {
+      "week": 1,
+      "title": "Uma Refeição em Silêncio",
+      "epigraph": "O corpo sabe comer. Raramente deixam que ele coma.",
+      "paras": [
+        "Escolha uma refeição hoje e dê a ela silêncio. Sem tela, sem leitura, sem conversa. Só você e a comida, e o barulho estranho da sua própria mastigação, que vai dar vergonha por exatos dois minutos e depois vai virar paz.",
+        "Coma mais devagar do que de costume. Pouse o garfo entre uma garfada e outra, não como truque de dieta, mas como cortesia com a refeição. Perceba quando o corpo diz chega. Ele diz baixinho, e diz mais cedo do que a mente, que come por outros motivos: tédio, consolo, o relógio.",
+        "Uma refeição em silêncio não vai mudar o seu corpo. Ela vai mostrar como você raramente está presente para aquilo que mantém você vivo. Vale a pena ver isso uma vez por dia."
+      ],
+      "practice_label": "A prática de hoje, uma refeição",
+      "practice_steps": [
+        "Escolha a refeição em que o silêncio é possível. Tire a tela da mesa por completo.",
+        "Coma devagar. Pouse o garfo entre as garfadas. Prove cada uma como se fosse contar a um cozinheiro que você respeita.",
+        "Pare quando o corpo disser chega, e fique um minuto quieto antes de tirar o prato."
+      ],
+      "journal": "Quando o corpo disse chega, e você escutou?"
+    }
+  ]
+}

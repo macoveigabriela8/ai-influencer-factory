@@ -1,0 +1,35 @@
+[Script Info]
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV
+Style: Default,Helvetica,58,&H00FFFFFF,&HB0000000,1,4,0,0,2,60,60,270
+
+[Events]
+Format: Layer, Start, End, Style, Text
+Dialogue: 0,0:00:00.00,0:00:04.70,Default,Quanto mais tempo você fica em\Ncasa, menos vontade tem de sair.
+Dialogue: 0,0:00:04.70,0:00:09.46,Default,Você acha que está descansando,\Nmas está se esvaziando.
+Dialogue: 0,0:00:09.46,0:00:14.28,Default,Sua mente desacelera, seus pensamentos\Nficam pesados e, pouco a
+Dialogue: 0,0:00:14.28,0:00:17.94,Default,pouco, você deixa de querer fazer\Nqualquer coisa.
+Dialogue: 0,0:00:17.94,0:00:21.66,Default,Até uma caminhada curta parece\Ndifícil demais.
+Dialogue: 0,0:00:21.66,0:00:24.92,Default,Até a luz do sol parece um\Nesforço.
+Dialogue: 0,0:00:24.92,0:00:28.14,Default,Isso não é preguiça, é cansaço da\Nalma.
+Dialogue: 0,0:00:28.14,0:00:33.20,Default,Sua mente continua girando no mesmo\Nlugar, presa no que já passou,
+Dialogue: 0,0:00:33.20,0:00:37.44,Default,preocupada com o que ainda não\Nveio, cansada do agora.
+Dialogue: 0,0:00:37.44,0:00:42.56,Default,E quanto mais tempo você fica\Nnesse ciclo, mais difícil é sair dele.
+Dialogue: 0,0:00:42.56,0:00:44.42,Default,Mas escute com atenção.
+Dialogue: 0,0:00:44.42,0:00:47.96,Default,Você não precisa se sentir melhor\Npara sair.
+Dialogue: 0,0:00:47.96,0:00:50.88,Default,Você precisa sair para se sentir\Nmelhor.
+Dialogue: 0,0:00:50.88,0:00:52.22,Default,Dê um passo.
+Dialogue: 0,0:00:52.22,0:00:57.36,Default,Sente no sol, escute o vento,\Nsinta o mundo se mover de novo.
+Dialogue: 0,0:00:57.36,0:01:02.26,Default,Quanto mais você adia, mais\Ndifícil parece começar.
+Dialogue: 0,0:01:02.26,0:01:05.50,Default,A cura nem sempre começa com o\Ndescanso.
+Dialogue: 0,0:01:05.50,0:01:08.94,Default,Às vezes ela começa com um único\Npasso.
+Dialogue: 0,0:01:08.94,0:01:11.34,Default,Eu sou o Mestre Kayon.
+Dialogue: 0,0:01:11.34,0:01:12.56,Default,Siga para mais.
+Dialogue: 0,0:01:12.56,0:01:12.58,Default,Siga para mais.
+Dialogue: 0,0:01:12.58,0:01:12.62,Default,Siga para mais.
+Dialogue: 0,0:01:12.62,0:01:12.76,Default,Siga para mais.!
+Dialogue: 0,0:01:12.76,0:01:13.04,Default,Siga E aí

@@ -1,0 +1,492 @@
+<title>Master Kaion — Reel Animatic</title>
+
+<style>
+  :root {
+    --ground:  #E9EAE6;
+    --raised:  #FFFFFF;
+    --ink:     #191C19;
+    --soft:    #5B625A;
+    --faint:   #8E958C;
+    --rule:    #D5D8D1;
+    --indigo:  #3B4A6B;
+    --moss:    #5F7A5A;
+    --cedar:   #8A6A45;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --serif: Iowan Old Style, Palatino Linotype, Palatino, Georgia, serif;
+    --sans: ui-sans-serif, -apple-system, Segoe UI, Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground:#131614; --raised:#1C201D; --ink:#E7EAE5; --soft:#A2A99F;
+      --faint:#6F766D; --rule:#2D332F; --indigo:#93AEDC; --moss:#8FAE88; --cedar:#C29A6B;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#131614; --raised:#1C201D; --ink:#E7EAE5; --soft:#A2A99F;
+    --faint:#6F766D; --rule:#2D332F; --indigo:#93AEDC; --moss:#8FAE88; --cedar:#C29A6B;
+  }
+  :root[data-theme="light"] {
+    --ground:#E9EAE6; --raised:#FFFFFF; --ink:#191C19; --soft:#5B625A;
+    --faint:#8E958C; --rule:#D5D8D1; --indigo:#3B4A6B; --moss:#5F7A5A; --cedar:#8A6A45;
+  }
+
+  body { background: var(--ground); color: var(--ink); font-family: var(--sans); line-height:1.6; }
+  .wrap { max-width: 1000px; margin:0 auto; padding: 3rem 1.25rem 5rem; display:flex; flex-direction:column; gap:2rem; }
+
+  .eyebrow { font-family:var(--mono); font-size:.68rem; letter-spacing:.16em; text-transform:uppercase; color:var(--faint); }
+  h1 { font-family:var(--serif); font-weight:400; font-size:clamp(1.9rem,4.5vw,2.7rem); margin:.5rem 0 0; letter-spacing:-.015em; text-wrap:balance; }
+  .standfirst { font-family:var(--serif); color:var(--soft); font-size:1.08rem; max-width:60ch; margin:.7rem 0 0; }
+
+  /* reel picker */
+  .picker { display:flex; flex-wrap:wrap; gap:1px; background:var(--rule); border:1px solid var(--rule); }
+  .picker button {
+    flex:1 1 180px; background:var(--raised); border:0; cursor:pointer;
+    padding:.85rem 1rem; text-align:left; color:var(--ink); font:inherit;
+    display:flex; flex-direction:column; gap:.15rem;
+  }
+  .picker button .n { font-family:var(--mono); font-size:.64rem; letter-spacing:.13em; text-transform:uppercase; color:var(--faint); }
+  .picker button .t { font-family:var(--serif); font-size:1.05rem; }
+  .picker button[aria-selected="true"] { background:var(--indigo); color:#fff; }
+  .picker button[aria-selected="true"] .n { color:rgba(255,255,255,.72); }
+  .picker button:focus-visible { outline:2px solid var(--moss); outline-offset:-2px; }
+
+  .stage { display:grid; grid-template-columns: minmax(0,300px) 1fr; gap:2rem; align-items:start; }
+  @media (max-width: 760px) { .stage { grid-template-columns:1fr; } }
+
+  /* the phone */
+  .phone {
+    aspect-ratio: 9/16; width:100%; position:relative; overflow:hidden;
+    border:1px solid var(--rule); background:#20262B;
+    display:flex; align-items:center; justify-content:center;
+  }
+  /* placeholder backdrop standing in for the avatar render */
+  .backdrop { position:absolute; inset:0;
+    background:
+      radial-gradient(120% 70% at 50% 12%, rgba(255,255,255,.10), transparent 60%),
+      linear-gradient(#39424B 0%, #2C343B 46%, #232A2F 100%);
+  }
+  .figure { position:absolute; left:50%; bottom:26%; transform:translateX(-50%);
+            width:44%; aspect-ratio:1/1.35; }
+  .figure .head { position:absolute; left:50%; top:0; transform:translateX(-50%);
+                  width:42%; aspect-ratio:1/1.15; border-radius:50% 50% 46% 46%;
+                  background:#6E625A; }
+  .figure .body { position:absolute; left:0; bottom:0; width:100%; height:66%;
+                  border-radius:44% 44% 6% 6%; background:#3E4759; }
+  .table { position:absolute; left:0; right:0; bottom:0; height:26%;
+           background:linear-gradient(#7A5F41, #5E4830); }
+  .pending {
+    position:absolute; top:.7rem; left:.7rem; z-index:3;
+    font-family:var(--mono); font-size:.55rem; letter-spacing:.1em; text-transform:uppercase;
+    color:rgba(255,255,255,.75); background:rgba(0,0,0,.42); padding:.28rem .5rem;
+  }
+  /* the real deliverable: subtitle treatment, exact */
+  .subs {
+    position:absolute; left:6%; right:6%; top:52%; z-index:4;
+    display:flex; justify-content:center;
+  }
+  .card {
+    background:#fff; color:#000; border-radius:9px;
+    padding:.5rem .7rem; text-align:center;
+    font-weight:800; font-size:clamp(.78rem, 3.1vw, 1rem); line-height:1.28;
+    letter-spacing:-.01em; box-shadow:0 2px 10px rgba(0,0,0,.3);
+    text-wrap:balance;
+  }
+  .beatflag {
+    position:absolute; bottom:.7rem; left:.7rem; right:.7rem; z-index:4;
+    font-family:var(--mono); font-size:.55rem; letter-spacing:.11em; text-transform:uppercase;
+    color:rgba(255,255,255,.8); display:flex; justify-content:space-between; gap:.5rem;
+  }
+  .scrub { position:absolute; left:0; right:0; bottom:0; height:3px; background:rgba(255,255,255,.2); z-index:5; }
+  .scrub span { display:block; height:100%; width:0; background:#fff; }
+
+  /* controls */
+  .controls { display:flex; align-items:center; gap:.6rem; margin-top:.85rem; }
+  .controls button {
+    font:inherit; font-size:.85rem; cursor:pointer; padding:.45rem .95rem;
+    background:var(--indigo); color:#fff; border:0;
+  }
+  .controls button.ghost { background:transparent; color:var(--soft); border:1px solid var(--rule); }
+  .controls button:focus-visible { outline:2px solid var(--moss); outline-offset:2px; }
+  .clock { font-family:var(--mono); font-size:.8rem; color:var(--soft); font-variant-numeric:tabular-nums; margin-left:auto; }
+
+  /* beat sheet */
+  .sheet { display:flex; flex-direction:column; gap:0; border:1px solid var(--rule); background:var(--raised); }
+  .beat { display:grid; grid-template-columns:auto 1fr; gap:1rem; padding:.75rem 1rem; border-bottom:1px solid var(--rule); cursor:pointer; }
+  .beat:last-child { border-bottom:0; }
+  .beat:hover { background:var(--ground); }
+  .beat[data-on="1"] { background:var(--ground); box-shadow:inset 3px 0 0 var(--moss); }
+  .beat .tc { font-family:var(--mono); font-size:.72rem; color:var(--faint); font-variant-numeric:tabular-nums; padding-top:.15rem; }
+  .beat .lb { font-family:var(--mono); font-size:.63rem; letter-spacing:.12em; text-transform:uppercase; color:var(--indigo); }
+  .beat .tx { font-family:var(--serif); font-size:.95rem; color:var(--soft); margin-top:.2rem; }
+
+  .meta { display:flex; flex-wrap:wrap; gap:1px; background:var(--rule); border:1px solid var(--rule); }
+  .meta div { background:var(--raised); padding:.7rem .9rem; flex:1 1 130px; }
+  .meta .k { font-family:var(--mono); font-size:.6rem; letter-spacing:.13em; text-transform:uppercase; color:var(--faint); }
+  .meta .v { font-family:var(--serif); font-size:1.15rem; font-variant-numeric:tabular-nums; }
+
+  .note { border-left:3px solid var(--cedar); background:var(--raised); padding:1rem 1.15rem; }
+  .note p { margin:0; max-width:64ch; }
+  .note .lbl { font-family:var(--mono); font-size:.63rem; letter-spacing:.13em; text-transform:uppercase; color:var(--cedar); margin-bottom:.45rem; }
+
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+</style>
+
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Animatic · subtitle timing is final</div>
+    <h1>Master Kaion — the three reels, playable</h1>
+    <p class="standfirst">
+      The avatar render is still gated on the API key, so the figure below is a placeholder.
+      Everything else is the real thing: the exact subtitle cards, the exact word timings at
+      150&nbsp;wpm, and the beat structure as it will be cut. Press play and read it the way a
+      muted viewer will.
+    </p>
+  </header>
+
+  <div class="picker" role="tablist" id="picker"></div>
+
+  <div class="stage">
+    <div>
+      <div class="phone">
+        <div class="backdrop"></div>
+        <div class="figure"><div class="head"></div><div class="body"></div></div>
+        <div class="table"></div>
+        <div class="pending">avatar render pending</div>
+        <div class="subs"><div class="card" id="card">Press play</div></div>
+        <div class="beatflag"><span id="flagL">—</span><span id="flagR"></span></div>
+        <div class="scrub"><span id="scrub"></span></div>
+      </div>
+      <div class="controls">
+        <button id="play">Play</button>
+        <button class="ghost" id="restart">Restart</button>
+        <span class="clock" id="clock">0:00</span>
+      </div>
+      <div class="meta" style="margin-top:.85rem">
+        <div><div class="k">Runtime</div><div class="v" id="mRun">—</div></div>
+        <div><div class="k">Words</div><div class="v" id="mWords">—</div></div>
+        <div><div class="k">Score</div><div class="v" id="mScore">—</div></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="eyebrow" style="margin-bottom:.7rem">Beat sheet — click any beat to jump</div>
+      <div class="sheet" id="sheet"></div>
+    </div>
+  </div>
+
+  <div class="note">
+    <div class="lbl">What is placeholder and what is not</div>
+    <p>
+      The figure, table and backdrop are flat shapes standing in for the render — do not read
+      anything into them. The subtitle box is exact: white rounded card, black bold text,
+      five to eight words, centred at roughly 55% frame height, matching the measured treatment
+      from Monk Chen's top reels. Timings come from the scripts at 150&nbsp;wpm and will be the
+      timings burned in.
+    </p>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // Beats carry their own time window; cards are distributed inside it by word count.
+  const REELS = [
+    {
+      id: "A", title: "The Glass of Water", score: 91, srcNote: "hook from his #1 · 4,047,769 plays",
+      beats: [
+        { t0:0,   t1:8,   label:"Hook (verbatim)", lines:[
+          "Place a glass of water beside your bed tonight.",
+          "Tomorrow morning you will understand why." ]},
+        { t0:8,   t1:16,  label:"Authority", lines:[
+          "In the temple where I trained, we did this every night for forty years.",
+          "Not for luck. To see what the room was holding." ]},
+        { t0:16,  t1:48,  label:"Instruction", lines:[
+          "Before you sleep, fill a clear glass with clean water.",
+          "Not from a bottle. From the tap, cold.",
+          "Hold it in both hands for the length of one slow breath.",
+          "Then say quietly, only once: Take what is not mine.",
+          "Place it on the floor, not the nightstand, the floor,",
+          "between your bed and the door.",
+          "That is the path everything travels while you sleep.",
+          "Then sleep normally. Do not look at it again tonight." ]},
+        { t0:48,  t1:92,  label:"Four branches", lines:[
+          "In the morning, before you speak to anyone, look at the glass.",
+          "If small bubbles cling to the inside of the glass,",
+          "the room was working hard. Ordinary tiredness, ordinary noise.",
+          "This is the most common.",
+          "If the water level has dropped,",
+          "you have been giving too much of yourself to someone.",
+          "The room took what you were already leaking.",
+          "If the water looks dull, flat, slightly grey,",
+          "this one is older. Weeks of carrying something you never put down.",
+          "And if the water is bright and clear, exactly as you left it,",
+          "your room is clean, my friend.",
+          "Sleep is not your problem. Something else is." ]},
+        { t0:92,  t1:108, label:"Warning + escalation", lines:[
+          "Never drink it. It did its work.",
+          "Pour it out under running water and rinse the glass.",
+          "If it is not clear after the first night, do it seven nights in a row.",
+          "Watch which night it changes.",
+          "That night will tell you more than the glass ever could." ]},
+        { t0:108, t1:126, label:"Absolution", lines:[
+          "Not all exhaustion belongs to the body.",
+          "Some people wake up tired for years and blame themselves.",
+          "They think they are lazy, or weak, or broken.",
+          "They are not.",
+          "They have simply been sleeping beside something they could not see." ]},
+        { t0:126, t1:140, label:"Comment + return + share", lines:[
+          "Write tonight in the comments if you will try this,",
+          "and come back tomorrow and tell me which of the four you found. I read them.",
+          "And send this to the person you know who never wakes up rested." ]},
+        { t0:140, t1:155, label:"Product bridge", lines:[
+          "But I will tell you the truth.",
+          "A glass of water can show you the weight. It cannot take it off you.",
+          "If you are tired of needing a ritual every time a day feels heavy,",
+          "I spent over forty years learning, in silence, how to live without them.",
+          "Everything I know is inside The Quiet Between Thoughts.",
+          "The link is in my profile." ]}
+      ]
+    },
+    {
+      id: "B", title: "Dreams of the Dead", score: 89, srcNote: "hook from his #2 · 1,384,721 plays",
+      beats: [
+        { t0:0,  t1:8,   label:"Hook (preserved)", lines:[
+          "If you dream about people who have already passed away, pay attention.",
+          "It matters how they appeared." ]},
+        { t0:8,  t1:18,  label:"Authority / reframe", lines:[
+          "In my tradition we do not say the dead come to visit us.",
+          "We say the part of you that still loves them",
+          "has something it has not finished saying." ]},
+        { t0:18, t1:40,  label:"Frame", lines:[
+          "So the question is never was it really them.",
+          "The question is how they appeared.",
+          "Think back to last night, or to the last time.",
+          "Do not force it. The image comes on its own." ]},
+        { t0:40, t1:92,  label:"Four branches", lines:[
+          "If they were silent and simply present, saying nothing,",
+          "nothing is wrong. That is memory settling.",
+          "Longing, taking a shape you can hold.",
+          "If they spoke to you and you cannot remember the words,",
+          "you already know what they would have said.",
+          "You are not ready to say it back yet.",
+          "If they appeared young again, healthy, before the illness,",
+          "that is you letting go of the last image, the hardest one.",
+          "That is grief moving forward, not backward.",
+          "And if you could not see their face,",
+          "that is not them, my friend.",
+          "That is the part of yourself you buried with them." ]},
+        { t0:92, t1:108, label:"Instruction + warning", lines:[
+          "When you wake from a dream like this, do one thing.",
+          "Stay still. Do not reach for your phone.",
+          "Give it thirty seconds of silence.",
+          "Say their name out loud, once.",
+          "The phone will take the dream from you",
+          "before you have understood it.",
+          "Thirty seconds. That is all it asks." ]},
+        { t0:108,t1:126, label:"Absolution", lines:[
+          "People carry guilt about these dreams.",
+          "They think they are being haunted,",
+          "or that they are going backwards.",
+          "You are not going backwards.",
+          "Someone who truly loved you does not disappear completely.",
+          "They stay in the only room that still has space for them." ]},
+        { t0:126,t1:142, label:"Comment CTA", lines:[
+          "Write their name in the comments. Just the name. Nothing else.",
+          "Say it here, where someone will read it.",
+          "And come back tomorrow and tell me how you slept." ]},
+        { t0:142,t1:156, label:"Product bridge", lines:[
+          "If you want to learn how to listen to what life keeps trying to tell you,",
+          "in dreams, in tiredness, in the days that feel heavy,",
+          "I spent over forty years learning that in silence.",
+          "Everything I know is inside The Quiet Between Thoughts.",
+          "The link is in my profile." ]}
+      ]
+    },
+    {
+      id: "C", title: "The Weekly Morning Routine", score: 85, srcNote: "hook from his #3 · 1,205,999 plays",
+      beats: [
+        { t0:0,   t1:9,   label:"Hook + curiosity gap", lines:[
+          "If a woman wants to lose fat as fast as possible,",
+          "following this weekly morning routine can help her reduce her waistline.",
+          "But not for the reason you think." ]},
+        { t0:9,   t1:20,  label:"Authority / reframe", lines:[
+          "In forty years I have watched women do everything correctly",
+          "and change nothing.",
+          "The routine is not the food. It is the first ten minutes." ]},
+        { t0:20,  t1:60,  label:"The five mornings", lines:[
+          "Monday. Before anything else, warm water.",
+          "Sit with it. Do not stand, do not walk, do not scroll. Ten minutes.",
+          "Tuesday. Warm water with lemon, and one window open.",
+          "Cold air on your face while you drink.",
+          "Wednesday. Warm water, and before you drink,",
+          "three slow breaths out, longer than the breath in.",
+          "Thursday. Warm water, and you say out loud",
+          "the one thing you are dreading today. Say it once. Then drink.",
+          "Friday. Warm water, in silence, with your eyes closed.",
+          "No sound at all." ]},
+        { t0:60,  t1:100, label:"Four branches", lines:[
+          "Now. By the second week, notice which morning was hardest for you.",
+          "This is the part that matters.",
+          "If Wednesday was hardest, the breathing,",
+          "your body has forgotten how to exhale.",
+          "You are holding your stomach tight all day without knowing it.",
+          "If Thursday was hardest, saying it out loud,",
+          "what you carry is not in your body at all.",
+          "It is in what you are not saying.",
+          "If Friday was hardest, the silence,",
+          "you are using noise to outrun something.",
+          "And nothing moves while you are running.",
+          "And if Monday was hardest, simply sitting for ten minutes,",
+          "then you have not truly rested in a very long time, my friend." ]},
+        { t0:100, t1:120, label:"Absolution", lines:[
+          "This is why women do everything right and nothing changes.",
+          "They clean the outside while the inside stays in survival.",
+          "A body that believes it is in danger will not let go of anything.",
+          "Not weight. Not tension.",
+          "Not the tightness in your face when you wake.",
+          "It is not discipline you are missing.",
+          "Your body is protecting you from a life",
+          "that has not felt safe in a long time." ]},
+        { t0:120, t1:138, label:"Comment + share", lines:[
+          "Write which morning was hardest, Monday, Wednesday, Thursday or Friday,",
+          "in the comments, and I will tell you what it means.",
+          "And send this to the woman who does everything right",
+          "and blames herself anyway." ]},
+        { t0:138, t1:158, label:"Product bridge", lines:[
+          "If you want to learn how to calm the thing underneath,",
+          "the tension that keeps your body holding on,",
+          "I spent over forty years learning that in silence.",
+          "Everything I know is inside The Quiet Between Thoughts.",
+          "The link is in my profile." ]}
+      ]
+    }
+  ];
+
+  // Split a line into <=8-word cards, then allocate the beat's window by word count.
+  function buildCards(beat) {
+    const chunks = [];
+    beat.lines.forEach(function (line) {
+      const w = line.split(/\s+/).filter(Boolean);
+      for (let i = 0; i < w.length; i += 7) chunks.push(w.slice(i, i + 7).join(" "));
+    });
+    const counts = chunks.map(function (c) { return c.split(/\s+/).length; });
+    const total = counts.reduce(function (a, b) { return a + b; }, 0) || 1;
+    const span = beat.t1 - beat.t0;
+    let t = beat.t0;
+    return chunks.map(function (text, i) {
+      const dur = span * (counts[i] / total);
+      const card = { text: text, t0: t, t1: t + dur, label: beat.label };
+      t += dur;
+      return card;
+    });
+  }
+
+  const state = { reel: 0, t: 0, playing: false, last: 0, cards: [], dur: 0 };
+
+  const el = {
+    picker: document.getElementById("picker"),
+    sheet:  document.getElementById("sheet"),
+    card:   document.getElementById("card"),
+    flagL:  document.getElementById("flagL"),
+    flagR:  document.getElementById("flagR"),
+    scrub:  document.getElementById("scrub"),
+    clock:  document.getElementById("clock"),
+    play:   document.getElementById("play"),
+    restart:document.getElementById("restart"),
+    mRun:   document.getElementById("mRun"),
+    mWords: document.getElementById("mWords"),
+    mScore: document.getElementById("mScore")
+  };
+
+  function fmt(s) {
+    const m = Math.floor(s / 60), r = Math.floor(s % 60);
+    return m + ":" + String(r).padStart(2, "0");
+  }
+
+  function loadReel(i) {
+    state.reel = i; state.t = 0; state.playing = false;
+    el.play.textContent = "Play";
+    const reel = REELS[i];
+    state.cards = reel.beats.flatMap(buildCards);
+    state.dur = reel.beats[reel.beats.length - 1].t1;
+
+    Array.prototype.forEach.call(el.picker.children, function (b, j) {
+      b.setAttribute("aria-selected", j === i ? "true" : "false");
+    });
+
+    const words = reel.beats.reduce(function (a, b) {
+      return a + b.lines.join(" ").split(/\s+/).length;
+    }, 0);
+    el.mRun.textContent = fmt(state.dur);
+    el.mWords.textContent = words;
+    el.mScore.textContent = reel.score;
+
+    el.sheet.innerHTML = "";
+    reel.beats.forEach(function (b, j) {
+      const row = document.createElement("div");
+      row.className = "beat"; row.dataset.i = j;
+      row.innerHTML =
+        '<div class="tc">' + fmt(b.t0) + "</div>" +
+        '<div><div class="lb"></div><div class="tx"></div></div>';
+      row.querySelector(".lb").textContent = b.label;
+      row.querySelector(".tx").textContent = b.lines[0];
+      row.addEventListener("click", function () { state.t = b.t0 + 0.01; render(); });
+      el.sheet.appendChild(row);
+    });
+    render();
+  }
+
+  function render() {
+    const reel = REELS[state.reel];
+    const cur = state.cards.find(function (c) { return state.t >= c.t0 && state.t < c.t1; });
+    el.card.textContent = cur ? cur.text : (state.t >= state.dur ? "End" : "…");
+    el.flagL.textContent = cur ? cur.label : "—";
+    el.flagR.textContent = reel.srcNote;
+    el.scrub.style.width = Math.min(100, (state.t / state.dur) * 100) + "%";
+    el.clock.textContent = fmt(state.t) + " / " + fmt(state.dur);
+
+    const bi = reel.beats.findIndex(function (b) { return state.t >= b.t0 && state.t < b.t1; });
+    Array.prototype.forEach.call(el.sheet.children, function (row, j) {
+      row.dataset.on = (j === bi) ? "1" : "0";
+    });
+  }
+
+  function tick(now) {
+    if (!state.playing) return;
+    if (!state.last) state.last = now;
+    state.t += (now - state.last) / 1000;
+    state.last = now;
+    if (state.t >= state.dur) {
+      state.t = state.dur; state.playing = false; el.play.textContent = "Play";
+    }
+    render();
+    if (state.playing) requestAnimationFrame(tick);
+  }
+
+  el.play.addEventListener("click", function () {
+    if (state.t >= state.dur) state.t = 0;
+    state.playing = !state.playing;
+    el.play.textContent = state.playing ? "Pause" : "Play";
+    state.last = 0;
+    if (state.playing) requestAnimationFrame(tick);
+  });
+  el.restart.addEventListener("click", function () {
+    state.t = 0; state.last = 0; render();
+  });
+
+  REELS.forEach(function (r, i) {
+    const b = document.createElement("button");
+    b.setAttribute("role", "tab");
+    b.innerHTML = '<span class="n"></span><span class="t"></span>';
+    b.querySelector(".n").textContent = "Reel " + r.id + " · scored " + r.score;
+    b.querySelector(".t").textContent = r.title;
+    b.addEventListener("click", function () { loadReel(i); });
+    el.picker.appendChild(b);
+  });
+
+  loadReel(0);
+})();
+</script>

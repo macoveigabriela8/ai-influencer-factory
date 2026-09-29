@@ -1,0 +1,6 @@
+file '/Users/m/Projects/influencer/output/reels/.work3/pad_01.mp4'
+file '/Users/m/Projects/influencer/output/reels/.work3/pad_02.mp4'
+file '/Users/m/Projects/influencer/output/reels/.work3/pad_03.mp4'
+file '/Users/m/Projects/influencer/output/reels/.work3/pad_04.mp4'
+file '/Users/m/Projects/influencer/output/reels/.work3/pad_05.mp4'
+file '/Users/m/Projects/influencer/output/reels/.work3/pad_06.mp4'

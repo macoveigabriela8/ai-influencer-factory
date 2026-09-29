@@ -1,0 +1,7 @@
+file '/Users/m/Projects/influencer/output/assets/sd_v01.mp4'
+file '/Users/m/Projects/influencer/output/assets/seedance_02.mp4'
+file '/Users/m/Projects/influencer/output/assets/seedance_03.mp4'
+file '/Users/m/Projects/influencer/output/assets/seedance_04.mp4'
+file '/Users/m/Projects/influencer/output/assets/seedance_05.mp4'
+file '/Users/m/Projects/influencer/output/assets/seedance_08.mp4'
+file '/Users/m/Projects/influencer/output/assets/seedance_07.mp4'

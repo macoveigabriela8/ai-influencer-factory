@@ -1,0 +1,4 @@
+file '/Users/m/Projects/influencer/output/assets/sd2_01_aligned.mp4'
+file '/Users/m/Projects/influencer/output/assets/sd2_02_aligned.mp4'
+file '/Users/m/Projects/influencer/output/assets/sd2_03_aligned.mp4'
+file '/Users/m/Projects/influencer/output/assets/sd2_04_aligned.mp4'

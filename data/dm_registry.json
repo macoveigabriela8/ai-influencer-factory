@@ -1,0 +1,687 @@
+{
+ "gumroad": "https://masterkaion.gumroad.com/l/quiet",
+ "note": "every reel with a comment CTA MUST have its keyword here before scheduling | 2026-08-15: YES gate removed from every practice DM; the 20% code is pre-applied on the button instead.",
+ "automations": [
+  {
+   "id": "254",
+   "name": "kaion home blessing",
+   "keywords": [
+    "home"
+   ],
+   "dmMessage": "My friend, here is the full house blessing. Open every window and let the old air leave. Walk through each room in silence, touch the walls, and say: from today, this space is a place of peace. Throw a handful of salt into the toilet and flush what is not yours. Then light one white candle in the center of your home and speak what you wish to live there: harmony, peace, rest. It is not the ritual that changes the house. It is the intention that changes you. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "reels": "22",
+   "created": "2026-08-08",
+   "postId": "6119798",
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "255",
+   "name": "kaion first step",
+   "keywords": [
+    "step"
+   ],
+   "dmMessage": "My friend, here is the first practice. Tomorrow, before your mind can argue, put on your shoes and stand outside your door for two minutes. Do not go anywhere. Feel the air, the light, the sound. That is all. The day after, walk to the corner and back. You do not have to feel better to go out. You go out to feel better. The full thirty days are inside The Quiet Between Thoughts. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "reels": "23",
+   "created": "2026-08-08",
+   "postId": "6131297",
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "256",
+   "name": "kaion water ritual",
+   "keywords": [
+    "water"
+   ],
+   "dmMessage": "My friend, here is the ritual. Tonight, fill a clear glass with water and place it beside your bed. As you set it down, say quietly: take from me what is not mine. Sleep. In the morning, do not drink it. Look at it once, then pour it away and say: it has done its work. Do this for three nights. The rest of what I know is inside The Quiet Between Thoughts. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "reels": "2",
+   "created": "2026-08-08",
+   "postId": null,
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "257",
+   "name": "kaion link words",
+   "keywords": [
+    "book",
+    "link",
+    "price",
+    "quiet"
+   ],
+   "dmMessage": "My friend, everything I teach is in one small book, The Quiet Between Thoughts. Thirty days, ten minutes a day. It is below. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "reels": "generic",
+   "created": "2026-08-08",
+   "postId": null,
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "258",
+   "name": "kaion yes gift",
+   "keywords": [
+    "yes",
+    "yes please",
+    "ready"
+   ],
+   "dmMessage": "Here is the gift, my friend. The book, with 20% off. The code is STILLNESS, and it is already applied if you press below. Read one day each morning. That is all it asks. 🙏",
+   "reels": "follow-up",
+   "created": "2026-08-08",
+   "note": "message-received; fires when they reply after any freebie DM; code STILLNESS must exist on Gumroad",
+   "buttons": [
+    {
+     "type": "url",
+     "title": "Open with the gift",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ],
+   "postId": null,
+   "isActive": true
+  },
+  {
+   "id": "263",
+   "name": "kaion reel13 any comment",
+   "keywords": [],
+   "postId": "3250679",
+   "dmMessage": "My friend, thank you for telling me where you watch from. The path reaches farther than I imagined. Wherever you are, the practice is the same: begin small, begin today. Everything I know is inside The Quiet Between Thoughts. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "273",
+   "name": "kaion gentle voice",
+   "keywords": [
+    "i am learning"
+   ],
+   "dmMessage": "Good, my friend. Today, catch one harsh sentence you say to yourself. Stop, and say it again the way you would say it to a child learning to walk. That is the whole practice. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "postId": null,
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "272",
+   "name": "kaion night guard",
+   "keywords": [
+    "tonight she guards me",
+    "she guards me",
+    "my guardians",
+    "my guardian"
+   ],
+   "dmMessage": "Good, my friend. Before sleep, sit on the edge of the bed, feet flat on the floor, three slow breaths, and say quietly: tonight I put it down. The body must hear the day is over. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "postId": null,
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "271",
+   "name": "kaion morning phone",
+   "keywords": [
+    "the morning is mine"
+   ],
+   "dmMessage": "Then guard it, my friend. Tonight the phone sleeps outside the bedroom. If it wakes you, it owns the morning before you have even opened your eyes. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "postId": null,
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "270",
+   "name": "kaion enough rest",
+   "keywords": [
+    "enough"
+   ],
+   "dmMessage": "Good, my friend. Tonight, one hour before sleep, let nothing new enter. No feed, no news, no one else's noise. The mind cannot put the day down while you keep handing it more. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "postId": "5994130",
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "269",
+   "name": "kaion peace breath",
+   "keywords": [
+    "peace",
+    "peace over pain"
+   ],
+   "dmMessage": "When it returns, my friend, do this. Breathe in for four counts, out for six. Ten breaths. The longer exhale tells the body the danger has passed, and the mind follows the body. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "postId": "6046052",
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "268",
+   "name": "kaion protection line",
+   "keywords": [
+    "amen",
+    "aman",
+    "amem",
+    "amém",
+    "ameen"
+   ],
+   "dmMessage": "Good, my friend. Tomorrow, before the phone, place one hand on your chest and say the line out loud, slowly, once. Words said with the body behind them work differently than words only thought. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "variants_added": "2026-08-12",
+   "postId": "6047143",
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "267",
+   "name": "kaion family words",
+   "keywords": [
+    "my daughter",
+    "my daugther",
+    "my dauhter",
+    "my doughter",
+    "my dougther",
+    "my dauther",
+    "my daugter"
+   ],
+   "dmMessage": "Do not wait for tonight, my friend. Send her a voice message today. Three sentences, no occasion, your voice and not your typing. You will both remember it longer than any gift. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "variants_added": "2026-08-12",
+   "postId": "5958148",
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "266",
+   "name": "kaion open paths",
+   "keywords": [
+    "paths are opening",
+    "path is opening",
+    "my paths are opening"
+   ],
+   "dmMessage": "Good, my friend. Each morning, touch the key once and name one door you want to open. One only. A person who names ten doors opens none. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "postId": "5952866",
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "265",
+   "name": "kaion abundance grains",
+   "keywords": [
+    "abundance",
+    "abundancia",
+    "abundence"
+   ],
+   "dmMessage": "Good, my friend. Keep the seven grains for seven days. On the seventh day, take one grain out and give something small away, a coin, a coffee, a kind word. Abundance moves when it circulates. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "postId": "5952150",
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "264",
+   "name": "kaion water morning",
+   "keywords": [
+    "i will do it today"
+   ],
+   "dmMessage": "Good, my friend. Then one more thing for tomorrow. When you wake, before you touch your phone, drink a full glass of water slowly, standing by a window. The first thing you give your body sets the tone for the day. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "created": "2026-08-08",
+   "postId": null,
+   "isActive": true,
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "757",
+   "name": "kaion FB any comment",
+   "platform": "facebook",
+   "keywords": [
+    "<any comment, all posts>"
+   ],
+   "dmMessage": "Thank you for stopping here, my friend. Here is something small to keep. Tonight, before you sleep, rest both hands over your eyes for the length of ten slow breaths. Let the dark be complete. The eyes carry the whole day, and they are the last part of you to stop working. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "reels": "all FB reels",
+   "created": "2026-08-10",
+   "note": "practice is NEW (hands over eyes, ten breaths) - not duplicated from any IG automation",
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "758",
+   "name": "kaion FB yes gift",
+   "platform": "facebook",
+   "keywords": [
+    "yes",
+    "yes please",
+    "ready"
+   ],
+   "dmMessage": "Here is the gift, my friend. The book, with 20% off. The code is STILLNESS, and it is already applied if you press below. Read one day each morning. That is all it asks. 🙏",
+   "reels": "follow-up",
+   "created": "2026-08-10",
+   "note": "message-received, so no overlap with the comment catch-all",
+   "buttons": [
+    {
+     "type": "url",
+     "title": "Open with the gift",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "853",
+   "name": "reel 25 — chaos",
+   "platform": "instagram",
+   "keywords": [
+    "chao",
+    "caos",
+    "kaos",
+    "chaso",
+    "chaoss"
+   ],
+   "dmMessage": "I know that house, my friend. Tonight, leave one small thing undone on purpose. One. A cup on the table, a door not straightened. Then sit down and let the room survive it, so your body can learn that nothing fell. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "reels": "25",
+   "created": "2026-08-11",
+   "note": "comment-received, all posts. Reel 25 speaks the ask: 'write the word chaos below'.",
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ],
+   "variants_added": "2026-08-12",
+   "postId": "6147995",
+   "isActive": true
+  },
+  {
+   "id": "1005",
+   "name": "reel 24 — forgive",
+   "platform": "instagram",
+   "keywords": [
+    "forgiv",
+    "forgve",
+    "forgvie",
+    "forgiev",
+    "forgife",
+    "forjive",
+    "furgive"
+   ],
+   "dmMessage": "Good, my friend. Tonight, write one sentence on paper that begins: at the time, I did not know. Read it once in the morning, then tear the paper. The hand must finish what the mind keeps starting. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "reels": "24",
+   "created": "2026-08-12",
+   "note": "comment-received, all posts. Reel 24 speaks the ask: 'Write the word forgive below'.",
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ],
+   "variants_added": "2026-08-12",
+   "postId": null,
+   "isActive": true
+  },
+  {
+   "id": "1012",
+   "name": "kaion protection line — my day is protected",
+   "platform": "instagram",
+   "keywords": [
+    "my day is protected",
+    "day is protected",
+    "protect my day",
+    "my day protected",
+    "i cleanse",
+    "i clense"
+   ],
+   "postId": "6008050",
+   "isActive": true,
+   "reels": "split from 268",
+   "created": "2026-08-12",
+   "note": "268 covered two different reels' asks; split so each automation watches only the post that made its ask.",
+   "dmMessage": "Good, my friend. Tomorrow, before the phone, place one hand on your chest and say the line out loud, slowly, once. Words said with the body behind them work differently than words only thought. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "1329",
+   "keywords": [
+    "silenc",
+    "silens",
+    "sielnc",
+    "silanc",
+    "slienc"
+   ],
+   "reel": "26",
+   "postId": null,
+   "dmMessage": "Here it is, my friend. Tonight, write on a small piece of paper the one thing you have not told anyone yet. Fold it once and place it under something heavy on your table, a stone or a bowl or a book. For seven nights, rest one finger on it and say nothing. The hand learns to hold what the mouth wants to give away. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "1333",
+   "keywords": [
+    "positiv",
+    "postiv",
+    "posativ",
+    "positve",
+    "psoitiv"
+   ],
+   "reel": "27",
+   "postId": null,
+   "dmMessage": "Here it is, my friend. Tonight before you sleep, sit still and picture one ordinary good thing arriving tomorrow. Not a miracle. A small one. Say it out loud once, then let it go. Do this for seven nights, and the mind begins to lean the other way on its own. Attention is a muscle, and it grows where you rest it. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "1337",
+   "keywords": [
+    "align",
+    "alligned",
+    "alined",
+    "algined",
+    "alignd"
+   ],
+   "reel": "29",
+   "postId": null,
+   "dmMessage": "Here it is, my friend. Tonight, take one thing you still call a wound and write it on paper as a sentence beginning: this taught me. Do not soften it, and do not lie. Fold the paper and keep it in a drawer where you will find it again. What the mind calls damage, the hand can name as teaching. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "1341",
+   "keywords": [
+    "lantern",
+    "lantren",
+    "lanturn",
+    "lantarn",
+    "latern"
+   ],
+   "reel": "30",
+   "postId": null,
+   "dmMessage": "I see you, my friend. Tonight, before you give anything to anyone, sit down and drink one glass of water slowly, without your phone, before you answer a single message. It is a small thing and it will feel selfish. That feeling is the proof you needed it. The one who fills everyone must be filled first, or the light goes out quietly. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "buttons": [
+    {
+     "title": "Your gift · 20% off",
+     "type": "url",
+     "url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS"
+    }
+   ]
+  },
+  {
+   "id": "1348",
+   "name": "reel 28 — star children (birth date, catch-all)",
+   "keywords": [],
+   "dmMessage": "Thank you for telling me, my friend. Tonight, when it is dark, stand at a window and find one star. Say your own name out loud, once, and then the day you arrived. It will feel strange, and that is because no one has said it to you as a good thing before. A person who can name their own arrival stops asking to be welcome. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "reel": 28,
+   "note": "open-ended birth-date ask; catch-all scoped to reel 28's post, bound to the published id by bind_automations.py"
+  },
+  {
+   "id": "1352",
+   "name": "reel 32 — stress (let them)",
+   "keywords": [
+    "stress",
+    "stres",
+    "strss",
+    "sress",
+    "stressed",
+    "strest"
+   ],
+   "dmMessage": "Here it is, my friend. Tomorrow, choose one person whose behaviour you have been trying to correct, and give them nothing for one day. No advice, no hint, no small correction. Each time the urge rises, press your thumb into your palm once and let it pass in silence. You will feel how much of your day was being spent on a task that was never yours. The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for. 🙏",
+   "reel": 32,
+   "note": "bound to the published post id by bind_automations.py after the 2026-08-19T08:41Z publish"
+  },
+  {
+   "id": "1373",
+   "name": "reel 33 — practice (who you have been practicing to be)",
+   "keywords": [
+    "practice",
+    "practise",
+    "pratice",
+    "practic",
+    "praticing",
+    "practicing"
+   ],
+   "dmMessage": "Here is the first one, my friend. Tomorrow, when you catch a thought you have had a thousand times, stop and say out loud: this is a habit, not a truth. Say it plainly, in your own voice, where only you can hear. Do this for seven days. You are not fighting the thought. You are only refusing to practice it. 🙏 The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for.",
+   "reel": 33,
+   "note": "bound to published post id by bind_automations.py after the 2026-08-19T19:23Z publish"
+  },
+  {
+   "id": "1378",
+   "name": "reel 34 — blessing (one day the phone will be quiet)",
+   "keywords": [
+    "blessing",
+    "blessings",
+    "blesing",
+    "blessig",
+    "blessin",
+    "bless"
+   ],
+   "dmMessage": "Here it is, my friend. Tonight, before you sleep, call one person whose voice you would miss. Not a message. Your voice, and theirs. If they do not answer, leave one out loud, and say the thing you assume they already know. We save these words for occasions, and the occasion is simply that they are still here to hear them. 🙏 The full thirty days are in my book. I have already left your gift on it, twenty percent, with nothing to ask me for.",
+   "reel": 34,
+   "note": "bound to published post id by bind_automations.py after the 2026-08-20T08:34Z publish"
+  },
+  {
+   "id": "1382",
+   "name": "reel 36 — proud (it was not luck, it was you)",
+   "keywords": [
+    "proud",
+    "prout",
+    "prud",
+    "porud",
+    "prooud"
+   ],
+   "dmMessage": "doorway of the child's room, hand on the frame, say: that was me",
+   "reel": 36,
+   "note": "media REPLACED 2026-08-15 (caption rebuild); binder must join on the NEW url. Bound after the 2026-08-20T19:12Z publish."
+  },
+  {
+   "id": "1383",
+   "name": "reel 37 — safe (trained to watch for weather)",
+   "keywords": [
+    "safe",
+    "saf",
+    "safee",
+    "asfe",
+    "sfae",
+    "safety"
+   ],
+   "dmMessage": "feet flat, press until the ground pushes back, name four things aloud",
+   "reel": 37,
+   "note": "bound to published post id by bind_automations.py after the 2026-08-21T08:39Z publish"
+  },
+  {
+   "id": "1388",
+   "name": "reel 35 — sibling (the longest relationship of your life)",
+   "keywords": [
+    "sibling",
+    "siblings",
+    "siblin",
+    "sibiling",
+    "sibbling",
+    "sybling"
+   ],
+   "dmMessage": "message the sibling, name one thing only you two remember, ask if they remember it too",
+   "reel": 35,
+   "note": "bound to published post id by bind_automations.py after the 2026-08-21T19:06Z publish"
+  },
+  {
+   "id": "1453",
+   "name": "reel 38 — father (never leave him alone)",
+   "keywords": [
+    "father",
+    "fathe",
+    "fahter",
+    "fathers",
+    "dad"
+   ],
+   "dmMessage": "call him today; name one thing he did for you when you were small, then let him finish the story",
+   "reel": 38,
+   "note": "bound to published post id by bind_automations.py after the 2026-08-22T08:33Z publish"
+  },
+  {
+   "id": "1454",
+   "name": "reel 39 — roots (leaves, branches and roots)",
+   "keywords": [
+    "roots",
+    "root",
+    "rots",
+    "rooots",
+    "rootz"
+   ],
+   "dmMessage": "write the three people you would call at 4am; do one unseen thing for one of them",
+   "reel": 39,
+   "note": "bound after the 2026-08-22T19:08Z publish"
+  },
+  {
+   "id": "1455",
+   "name": "reel 40 — chosen (what you tolerate becomes your future)",
+   "keywords": [
+    "chosen",
+    "chose",
+    "choosen",
+    "chosn",
+    "chossen"
+   ],
+   "dmMessage": "write the excuse you keep making for them, read it aloud, keep the paper for the lonely night",
+   "reel": 40,
+   "note": "bound after the 2026-08-23T08:44Z publish"
+  }
+ ],
+ "accountId": "63585",
+ "gumroad_pt": "https://mestrekaion.gumroad.com/l/silencio",
+ "gumroad_pt_gift": "https://mestrekaion.gumroad.com/l/silencio/QUIETUDE",
+ "note_pt": "PT automations (once IG mestrekaion is connected to Blotato): gift code QUIETUDE 20%, auto-applied via the /QUIETUDE link, mirrors EN STILLNESS flow",
+ "facebook_note": "Facebook Page 'Master Kaion' (Blotato account 44502, pageId 1267112906485392). FB captions carry NO comment CTA, so the funnel there is a CATCH-ALL on every comment rather than keyword automations. Do NOT add keyword automations on this page while the catch-all is live — both would fire and double-DM the same person.",
+ "keyword_matching": "MEASURED 2026-08-12 from live automation logs: Blotato matches contains(comment, keyword), CASE-INSENSITIVE. Proven to fire: 'Amen!🙏' (punctuation+emoji), 'My Daughter' (caps), 'My daughter 😢' (keyword inside a longer comment). Proven to MISS: 'Aman', 'My daugther' — misspellings are the only real failure mode. So: register the SHORTEST stem that cannot collide with an unrelated word ('forgiv' catches forgive/forgiven/forgiveness), plus the 3-5 most likely typos and any non-English spelling (amém, caos). COLLISION CHECK IS MANDATORY before adding a stem — rejected 'chos' (fires on 'chosen'), 'amin' (fires on 'vitamin'), 'amne' ('amnesia'). Long exact phrases are the narrowest possible net and are why the multi-word keywords underfire.",
+ "post_scoping": "2026-08-12: every automation whose post could be identified is now scoped with postId, so it only answers comments on the reel that made that ask. Mapping was derived EMPIRICALLY (which post each keyword's matching comments landed on), not guessed. Why: Meta allows ONE private reply per comment (7-day window); if two automations match the same comment the second is rejected (subcode 2534014), and an all-posts ordinary word like 'peace' or 'tonight' can also DM someone who never asked. 254 (home) and 255 (step) are DEACTIVATED until reels 22/23 publish — their ask does not exist yet, so any fire would be a false fire. Still unscoped: 256 (water, reel 2 was hand-posted so Blotato has no post id), 257 (generic purchase intent, deliberately all-posts), 264/271/272/273 (distinctive phrases, low risk), 853 + 1005 (scope them the moment reels 25/24 publish on Aug 14 and Aug 15).",
+ "gumroad_gift_url": "https://masterkaion.gumroad.com/l/quiet/STILLNESS",
+ "media": {
+  "1329": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/edfafd77-9643-40a2-a25d-f2d68c6919ce.mp4",
+  "1333": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/5dfaa34a-eeb3-43f9-b050-f489d9746f82.mp4",
+  "1337": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/503b5401-772d-4b90-ad44-49b2a42c2420.mp4",
+  "1341": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/9861f2b1-feda-4ef4-afdd-2106fc62c870.mp4",
+  "1346": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/1cf18d72-1063-4eea-abd1-652486c468bd.mp4",
+  "1348": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/accc9b79-3793-4f31-afd3-2f399ed502e8.mp4",
+  "1352": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/e999c6cd-e466-4f49-b5e9-e9dc8f9fd628.mp4",
+  "1373": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/01655a3d-e6e9-4bd0-a0cc-178854e4d282.mp4",
+  "1378": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/a5f53572-4ad1-42ae-b11a-beac6d6d8d9e.mp4",
+  "1382": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/e83f3ec6-d2a5-4748-bd71-e58dbfc92ad6.mp4",
+  "1383": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/5195ce27-45a0-4f2b-9d3c-e5a9ff106a0f.mp4",
+  "1388": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/2c2021ad-29f8-49ae-8491-8f840bbb395a.mp4",
+  "1453": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/d0fcb0fb-e1ff-4f82-ae06-fb18129cf1fc.mp4",
+  "1454": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/1d490393-5300-4316-bec2-825730c1a3d1.mp4",
+  "1455": "https://database.blotato.io/storage/v1/object/public/public_media/5f3eceab-8d94-4fda-95b5-1fb67582e97a/5b7f4d94-4f23-4e8b-89ac-756beb87e488.mp4"
+ }
+}

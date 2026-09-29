@@ -1,0 +1,22 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && python3 scripts/first_run.py 2>/dev/null || true",
+            "timeout": 10,
+            "statusMessage": "Checking setup..."
+          },
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" && python3 scripts/ledger.py hook 2>/dev/null || true",
+            "timeout": 15,
+            "statusMessage": "Loading production ledger..."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+ "PT2": {
+  "done": true,
+  "credits": 616.0,
+  "anchor": "pt_a5_grey_shawl_mist",
+  "note": "round8: reworded 'muda a casa', fresh upload after cache fix"
+ },
+ "PT3": {
+  "done": true,
+  "credits": 632.0,
+  "anchor": "pt_a3_veranda_standing",
+  "dur": 79.412245,
+  "file": "/Users/m/Projects/influencer/output/markets/PT/assets/sdPT3.mp4"
+ },
+ "PT4": {
+  "done": true,
+  "credits": 632.0,
+  "anchor": "pt_a4_low_table",
+  "dur": 79.272925,
+  "file": "/Users/m/Projects/influencer/output/markets/PT/assets/sdPT4.mp4"
+ },
+ "PT5": {
+  "done": true,
+  "credits": 600.0,
+  "anchor": "pt_a5_grey_shawl_mist",
+  "note": "round2: hands-hidden prompt"
+ },
+ "PT6": {
+  "done": true,
+  "credits": 560.0,
+  "anchor": "pt_a6_dirt_path",
+  "dur": 70.820862,
+  "file": "/Users/m/Projects/influencer/output/markets/PT/assets/sdPT6.mp4"
+ },
+ "PT7": {
+  "done": true,
+  "credits": 600.0,
+  "anchor": "pt_a7_candle_dark",
+  "dur": 75.232653,
+  "file": "/Users/m/Projects/influencer/output/markets/PT/assets/sdPT7.mp4"
+ },
+ "PT8": {
+  "done": true,
+  "credits": 624.0,
+  "anchor": "pt_a4_low_table",
+  "note": "round4 fresh TTS"
+ },
+ "PT9": {
+  "done": true,
+  "credits": 624.0,
+  "anchor": "pt_a7_candle_dark",
+  "note": "round5 fresh TTS + anchor swap"
+ },
+ "PT10": {
+  "done": true,
+  "credits": 672.0,
+  "anchor": "pt_a4_low_table",
+  "dur": 84.752834,
+  "file": "/Users/m/Projects/influencer/output/markets/PT/assets/sdPT10.mp4"
+ }
+}

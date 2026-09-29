@@ -1,0 +1,17 @@
+Cinco trechos onde a transcricao automatica ficou ambigua.
+Ouca cada um e confirme se a palavra do roteiro foi dita corretamente.
+
+6a_dia17_fale-apenas.mp3
+    script: 'Fale apenas se ela for melhor que o silencio' / ASR heard: 'Vale a pena se ela...'
+
+6b_dia29_votou.mp3
+    script: 'o seu corpo ja votou' / ASR heard: 'ja voltou'
+
+6c_dia6_fossem-pedir.mp3
+    script: 'como se depois fossem pedir que voce o descrevesse' / ASR heard: 'fosse impedir'
+
+6d_dia27_tenro.mp3
+    script: 'enquanto ainda esta tenro' / ASR heard: 'esta tempo'
+
+6e_dia14_le-agora.mp3
+    script: 'a mesma que o le agora' / ASR heard: 'que o leia agora'
